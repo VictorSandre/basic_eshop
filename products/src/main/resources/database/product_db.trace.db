@@ -1,0 +1,147 @@
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO product (id,image, price, title) VALUES[*]"; expected "ROW, (, DEFAULT, INTERSECTS, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO product (id,image, price, title) VALUES [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]1,'https://fakeimg.pl/250x100/', 2.3, 'titre1'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(1,'https://fakeimg.pl/250x100/', 2.3, 'titre1'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]2,'https://fakeimg.pl/100x100/', 5.1, 'titre2'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(2,'https://fakeimg.pl/100x100/', 5.1, 'titre2'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]3,'https://fakeimg.pl/250x400/', 85.2, 'titre3'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(3,'https://fakeimg.pl/250x400/', 85.2, 'titre3'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]4,'https://fakeimg.pl/250x100/', 2.0, 'titre4'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(4,'https://fakeimg.pl/250x100/', 2.0, 'titre4'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]5,'https://fakeimg.pl/250x100/', 5.1, 'titre5'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(5,'https://fakeimg.pl/250x100/', 5.1, 'titre5'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]6,'https://fakeimg.pl/250x100/', 5.2, 'titre6'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(6,'https://fakeimg.pl/250x100/', 5.2, 'titre6'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]7,'https://fakeimg.pl/250x100/', 2.3, 'titre7'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(7,'https://fakeimg.pl/250x100/', 2.3, 'titre7'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]8,'https://fakeimg.pl/250x100/', 5.1, 'titre8'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(8,'https://fakeimg.pl/250x100/', 5.1, 'titre8'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]9,'https://fakeimg.pl/250x100/', 5.2, 'titre9'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(9,'https://fakeimg.pl/250x100/', 5.2, 'titre9'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]10,'https://fakeimg.pl/250x100/', 2.3, 'titre10'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(10,'https://fakeimg.pl/250x100/', 2.3, 'titre10'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]11,'https://fakeimg.pl/250x100/', 5.1, 'titre11'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(11,'https://fakeimg.pl/250x100/', 5.1, 'titre11'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]12,'https://fakeimg.pl/250x100/', 5.2, 'titre12'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(12,'https://fakeimg.pl/250x100/', 5.2, 'titre12'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]13,'https://fakeimg.pl/250x100/', 2.3, 'titre13'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(13,'https://fakeimg.pl/250x100/', 2.3, 'titre13'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]14,'https://fakeimg.pl/250x100/', 5.1, 'titre14'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(14,'https://fakeimg.pl/250x100/', 5.1, 'titre14'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]15,'https://fakeimg.pl/250x100/', 5.2, 'titre15'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(15,'https://fakeimg.pl/250x100/', 5.2, 'titre15'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]16,'https://fakeimg.pl/250x100/', 2.3, 'titre16'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(16,'https://fakeimg.pl/250x100/', 2.3, 'titre16'), [42001-212]
+2022-06-03 14:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]17,'https://fakeimg.pl/250x100/', 5.1, 'titre17'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(17,'https://fakeimg.pl/250x100/', 5.1, 'titre17'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]18,'https://fakeimg.pl/250x100/', 5.2, 'titre18'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(18,'https://fakeimg.pl/250x100/', 5.2, 'titre18'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]19,'https://fakeimg.pl/250x300/', 2.3, 'titre19'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(19,'https://fakeimg.pl/250x300/', 2.3, 'titre19'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]20,'https://fakeimg.pl/250x100/', 5.1, 'titre20'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(20,'https://fakeimg.pl/250x100/', 5.1, 'titre20'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]21,'https://fakeimg.pl/250x500/', 5.2, 'titre21'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(21,'https://fakeimg.pl/250x500/', 5.2, 'titre21'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]22,'https://fakeimg.pl/250x100/', 2.3, 'titre22'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(22,'https://fakeimg.pl/250x100/', 2.3, 'titre22'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]23,'https://fakeimg.pl/250x100/', 5.1, 'titre23'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(23,'https://fakeimg.pl/250x100/', 5.1, 'titre23'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]24,'https://fakeimg.pl/250x100/', 5.2, 'titre24'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(24,'https://fakeimg.pl/250x100/', 5.2, 'titre24'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]25,'https://fakeimg.pl/200x100/', 2.3, 'titre25'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(25,'https://fakeimg.pl/200x100/', 2.3, 'titre25'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]26,'https://fakeimg.pl/250x100/', 5.1, 'titre26'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(26,'https://fakeimg.pl/250x100/', 5.1, 'titre26'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]27,'https://fakeimg.pl/250x100/', 5.2, 'titre27'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(27,'https://fakeimg.pl/250x100/', 5.2, 'titre27'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]28,'https://fakeimg.pl/250x100/', 2.3, 'titre28'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(28,'https://fakeimg.pl/250x100/', 2.3, 'titre28'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]29,'https://fakeimg.pl/250x100/', 5.1, 'titre29'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(29,'https://fakeimg.pl/250x100/', 5.1, 'titre29'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]30,'https://fakeimg.pl/500x100/', 5.2, 'titre30'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(30,'https://fakeimg.pl/500x100/', 5.2, 'titre30'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]31,'https://fakeimg.pl/250x100/', 2.3, 'titre31'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(31,'https://fakeimg.pl/250x100/', 2.3, 'titre31'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]32,'https://fakeimg.pl/250x100/', 5.1, 'titre32'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(32,'https://fakeimg.pl/250x100/', 5.1, 'titre32'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]33,'https://fakeimg.pl/250x100/', 5.2, 'titre33'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(33,'https://fakeimg.pl/250x100/', 5.2, 'titre33'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]34,'https://fakeimg.pl/250x100/', 2.3, 'titre34'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(34,'https://fakeimg.pl/250x100/', 2.3, 'titre34'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]35,'https://fakeimg.pl/250x100/', 5.1, 'titre35'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(35,'https://fakeimg.pl/250x100/', 5.1, 'titre35'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]36,'https://fakeimg.pl/250x100/', 5.2, 'titre36'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(36,'https://fakeimg.pl/250x100/', 5.2, 'titre36'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]37,'https://fakeimg.pl/250x100/', 2.3, 'titre37'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(37,'https://fakeimg.pl/250x100/', 2.3, 'titre37'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]38,'https://fakeimg.pl/250x100/', 5.1, 'titre38'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(38,'https://fakeimg.pl/250x100/', 5.1, 'titre38'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]39,'https://fakeimg.pl/250x100/', 5.2, 'titre39'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(39,'https://fakeimg.pl/250x100/', 5.2, 'titre39'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]40,'https://fakeimg.pl/250x100/', 2.3, 'titre40'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(40,'https://fakeimg.pl/250x100/', 2.3, 'titre40'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]41,'https://fakeimg.pl/250x100/', 5.1, 'titre41'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(41,'https://fakeimg.pl/250x100/', 5.1, 'titre41'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]42,'https://fakeimg.pl/250x100/', 5.2, 'titre42'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(42,'https://fakeimg.pl/250x100/', 5.2, 'titre42'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]43,'https://fakeimg.pl/250x100/', 2.3, 'titre43'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(43,'https://fakeimg.pl/250x100/', 2.3, 'titre43'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]44,'https://fakeimg.pl/250x100/', 5.1, 'titre44'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(44,'https://fakeimg.pl/250x100/', 5.1, 'titre44'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]45,'https://fakeimg.pl/250x100/', 5.2, 'titre45'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(45,'https://fakeimg.pl/250x100/', 5.2, 'titre45'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]46,'https://fakeimg.pl/250x100/', 2.3, 'titre46'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(46,'https://fakeimg.pl/250x100/', 2.3, 'titre46'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]47,'https://fakeimg.pl/250x100/', 5.1, 'titre47'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(47,'https://fakeimg.pl/250x100/', 5.1, 'titre47'), [42001-212]
+2022-06-03 14:11:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]48,'https://fakeimg.pl/250x100/', 5.2, 'titre48')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(48,'https://fakeimg.pl/250x100/', 5.2, 'titre48') [42001-212]
