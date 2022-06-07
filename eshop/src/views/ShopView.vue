@@ -43,7 +43,7 @@ export default {
     },
     methods: {
         async fetchProducts(pageNumber = 0, numberItemPerPage = 3) {
-            const baseUrl = 'http://192.168.1.25:8081/products'
+            const baseUrl = process.env.VUE_APP_PRODUCTS_API_BASE_URL
             const url = baseUrl + '?page=' + pageNumber + '&size=' + numberItemPerPage
             
             try {
