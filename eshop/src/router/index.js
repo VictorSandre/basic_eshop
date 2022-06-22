@@ -1,22 +1,22 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import ShopView from '@/views/ShopView.vue'
-import CartView from '@/views/CartView.vue'
-import AboutView from '@/views/AboutView.vue'
-import PageNotFoundView from '@/views/PageNotFoundView.vue'
+import ShopView from '@/components/shop/ShopView.vue'
+import CartView from '@/components/shop/cart/CartView.vue'
+import AboutView from '@/components/AboutView.vue'
+import PageNotFound from '@/components/error/PageNotFound.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    redirect: {name : 'shop'}
+    redirect: { name: 'shop' }
   },
   {
-    path: '/Shop',
+    path: '/shop',
     name: 'shop',
     component: ShopView
   },
   {
-    path: '/Shop/Cart',
+    path: '/shop/cart',
     name: 'cart',
     component: CartView
   },
@@ -28,7 +28,7 @@ const routes = [
   {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
-    component: PageNotFoundView
+    component: PageNotFound
   }
 ]
 

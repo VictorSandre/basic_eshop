@@ -2,19 +2,19 @@
 import ProductItem from './ProductItem.vue'
 
 export default {
-    name: "ProductList",
-    props: {
-        products: Array
-    },
-    components: {
-        ProductItem
-    }
+  name: 'ProductList',
+  props: {
+    products: Array
+  },
+  components: {
+    ProductItem
+  }
 }
 </script>
 
 <template>
     <div class="product-list">
-        <product-item 
+        <product-item
             v-for="item in products" :key="item.id"
             :id="item.id"
             :title="item.title"
@@ -24,9 +24,9 @@ export default {
 </template>
 
 <style scoped>
-    .product-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 </style>

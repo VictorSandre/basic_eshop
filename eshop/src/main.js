@@ -6,7 +6,7 @@ import { createPinia } from 'pinia'
 import router from './router'
 
 createApp(App).use(router)
-    .use(VueAxios, axios)
-    .use(createPinia())
-    .use(router)
-    .mount('#app')
+  .use(VueAxios, axios)
+  .use(createPinia())
+  .use(router)
+  .mount('#app')

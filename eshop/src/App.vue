@@ -1,61 +1,56 @@
 <script>
-import AppHeader from '@/components/AppHeader.vue'
-import AppNavBar from '@/components/AppNavBar.vue'
+import AppHeader from '@/components/global/AppHeader.vue'
 
 export default {
   name: 'App',
   components: {
-    AppHeader,
-    AppNavBar
+    AppHeader
   }
 }
 </script>
 
 <template>
-    <app-header></app-header>
-    <app-nav-bar></app-nav-bar>
+    <app-header/>
     <main class="main-layout">
         <router-view></router-view>
     </main>
-    <footer class="app-footer">VicSan's project</footer>
+    <footer class="app-footer">Vict Sand</footer>
 </template>
 
-<style>
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import '@/scss/utils/_variables.scss';
+@import '@/scss/utils/_mixins.scss';
+
 .layout{
-    height: 100%;
-    width: 100%;
-    
+    @include block-size(100%100%);
 }
-    body{
-        margin: 0;
-        padding: 0;
-    }
-    #app{
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-    .main-layout{
-        background-color: #F8F0E5;
-        flex-grow: 1;
-        margin: 0 10px 10px 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .app-footer{
-        min-height: 60px;
-        text-align: center;
-        margin-top: auto;
-        background-color: #E2C7AA;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width:100%;
-    }
-    a{
-        text-decoration: none;
-        color: #016328;
-    }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#app{
+    min-height: 100vh;
+    @include flex-display(column);
+}
+.main-layout{
+    background-color: $third-color;
+    flex-grow: 1;
+    margin: 0 10px 10px 10px;
+    @include flex-display(column, center, center);
+}
+.app-footer{
+    min-height: 60px;
+    width:100%;
+    text-align: center;
+    margin-top: auto;
+    background-color: $secondary-color;
+    @include flex-display(row, center, center);
+    color: $primary-color;
+}
+a{
+    text-decoration: none;
+    color: $primary-color;
+}
 </style>
